@@ -3,7 +3,7 @@
 This repository is a template for [squib](https://squib.rocks) projects. There are some nice features built-in that
 can be re-used:
 
-- Docker container! Run using `docker-compose up` to auto-build whenever you make changes.
+- Docker container! Run using `docker-compose run app` to auto-build whenever you make changes.
 - [Guard](https://github.com/guard/guard) does the aforementioned auto-building.
 - Google sheets data extension. (See how-to section below)
 - Built-in sprues for Tabletop Simulator and Print & Play games.
