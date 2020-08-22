@@ -11,14 +11,15 @@ can be re-used:
 ## How to use google sheets
 
 1. Go to Google Sheets and create your game data.
-2. Choose File > Publish to the web...
-3. Pick the format (you want csv)
-4. Click Publish
-5. Copy the link generated. It _must_ be in the format https://docs.google.com/spreadsheets/d/e/...
-6. The ID of your sheet is what you'll use to import the data:
+2. Enter share settings and change to 'Anyone with the link can view'
+3. Choose File > Publish to the web...
+4. Pick the format (you want csv)
+5. Click Publish
+6. Copy the link from the _Share_ popup _not_ the publish popup. It _must_ be in the format https://docs.google.com/spreadsheets/d/... (*not* /d/e/)
+7. The ID of your sheet is what you'll use to import the data. It's after the /d/ in the URL
 
 ```ruby
-deck = Squib.gsheet '2DutFXPxYEXlaBmd5ML2MsBKtUvWeVbeSKMCGT-7WKMw'
+deck = Squib.gsheet '123qqq9Tbw9c1GOQmdQodQOxCnF9sSav_iBgOdY0J4zI'
 ```
 
 ## Contributing

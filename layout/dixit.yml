@@ -1,0 +1,26 @@
+---
+sheet_width: 11in
+sheet_height: 8.5in
+card_width: 3.35in
+card_height: 4.75in
+cards:
+- x: 0.5in
+  y: 0.5in
+- x: 3.6in
+  y: 0.5in
+- x: 6.7in
+  y: 0.5in
+crop_line:
+  lines:
+  - type: :vertical
+    position: 0.5in
+  - type: :vertical
+    position: 3.6in
+  - type: :vertical
+    position: 6.7in
+  - type: :vertical
+    position: 9.8in
+  - type: :horizontal
+    position: 0.5in
+  - type: :horizontal
+    position: 5.25in

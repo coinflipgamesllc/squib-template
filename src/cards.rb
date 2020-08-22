@@ -2,7 +2,7 @@ require_relative './base'
 
 deck = Squib.gsheet ':insert google sheet id here:'
 Squib::Deck.new(cards: deck['name'].size, layout: ['layout/layout.yml']) do
-  # hint text: cyan
+  # hint text: :cyan
   safe_zone fill_color: :purple
 
   build :print do
